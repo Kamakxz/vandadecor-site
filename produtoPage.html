@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title id="tituloPagina">Produto | Vandadecor</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      background: #fff0f6;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .logo {
+      max-height: 50px;
+      width: auto;
+    }
+    .hero {
+      padding: 60px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      font-weight: bold;
+      color: #d63384;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #6c757d;
+    }
+    .btn-custom {
+      background-color: #d63384;
+      color: white;
+      border: none;
+    }
+    .btn-custom:hover {
+      background-color: #c22573;
+    }
+        footer {
+      margin-top: 4rem;
+      padding: 2rem 0;
+      background-color: #ffe6f0;
+      text-align: center;
+    }
+    footer a {
+      color: #d63384;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .navbar {
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      padding: 0.5rem 1rem;
+    }
+    .nav-link {
+      transition: background-color 0.3s ease, color 0.3s ease;
+      border-radius: 8px; /* para deixar cantos arredondados no hover */
+      padding: 10px 12px;  /* pra dar um espacinho maior ao redor do texto */
+      display: flex;
+      align-items: center;
+      gap: 10px; /* espaçamento entre o ícone e o texto */
+    }
+
+    .nav-link:hover {
+      background-color: #ffe6f0; 
+      color: black !important;    
+      box-shadow: 0 5px 8px rgba(0,0,0,0.15);
+      transform: scale(1.05);
+      transition: all 0.3s ease;
+      text-decoration: none; 
+    }
+    .nav-icon {
+      width: 18px;
+      height: 18px;
+    }
+    .main-content {
+      margin-left: auto;
+      margin-right: auto;
+      padding: 40px 20px;
+    }
+    .product-images {
+      text-align: center;
+    }
+    .product-images img {
+      width: 90%;
+      max-width: 500px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+    .btn-whatsapp {
+      background-color: #25d366;
+      color: white;
+      font-weight: bold;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+    }
+    .btn-whatsapp:hover {
+      background-color: #1ebe5d;
+    }
+
+
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="assets/img/Logo Vandadecor.png" alt="Logo Vandadecor" class="logo me-3" />
+    </a>
+
+    <!-- Botão toggle para telas pequenas -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Itens do menu -->
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-lg-center">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><img src="assets/icons/home.svg" class="nav-icon" /> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalogo.html"><img src="assets/icons/catalogo.svg" class="nav-icon" /> Catálogo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="PageIndisponivel.html"><img src="assets/icons/cursos.svg" class="nav-icon" /> Cursos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="PageIndisponivel.html"><img src="assets/icons/sobre.svg" class="nav-icon" /> Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="certificados/index.html"><img src="assets/icons/certificados.svg" class="nav-icon" /> Certificados</a>
+        </li>
+      </ul>
+      <div class="d-flex ms-lg-3 mt-3 mt-lg-0">
+        <a href="loginecadastro.html" class="btn btn-custom btn-login w-100">Login / Cadastrar</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselImgProduto" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="assets/img/" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="..." alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<!-- CONTEÚDO PRINCIPAL -->
+<div class="main-content">
+  <div class="container">
+    <div class="product-images" id="productImages"></div>
+
+    <h2 class="text-center text-dark" id="productTitle">Título do Produto</h2>
+    <p class="text-center text-secondary" id="productCategory">Categoria</p>
+
+    <div class="text-center mt-4">
+      <a class="btn btn-whatsapp" target="_blank" id="whatsappBtn">
+        Pedir orçamento pelo WhatsApp
+      </a>
+    </div>
+  </div>
+</div>
+
+<script>
+  function getParam(nome) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(nome);
+  }
+
+  const idProduto = getParam("produto");
+
+  async function carregarProduto() {
+    try {
+      const resposta = await fetch("produtos.json");
+      const produtos = await resposta.json();
+
+      const produto = produtos[idProduto];
+
+      if (produto) {
+        document.getElementById("tituloPagina").innerText = `${produto.nome} | Vandadecor`;
+        document.getElementById("productTitle").innerText = produto.nome;
+        document.getElementById("productCategory").innerText = `Categoria: ${produto.categoria}`;
+
+        const imageContainer = document.getElementById("productImages");
+        produto.imagens.forEach(img => {
+          const imagem = document.createElement("img");
+          imagem.src = img;
+          imagem.alt = produto.nome;
+          imageContainer.appendChild(imagem);
+        });
+
+        const link = `https://wa.me/5545991292930?text=Olá,%20tenho%20interesse%20nessa%20decoração:%20${encodeURIComponent(produto.nome)}`;
+        document.getElementById("whatsappBtn").href = link;
+      } else {
+        document.querySelector(".main-content").innerHTML = `
+          <div class="container my-5 text-center">
+            <h2 class="text-danger">Produto não encontrado 😢</h2>
+            <a href="catalogo.html" class="btn btn-secondary mt-3">Voltar ao catálogo</a>
+          </div>
+        `;
+      }
+    } catch (e) {
+      console.error("Erro ao carregar produto:", e);
+    }
+  }
+
+  carregarProduto();
+</script>
+
+  <!-- Footer -->
+  <footer>
+    <p>Entre em contato:</p>
+    <p>
+      <a href="https://www.instagram.com/vandadecor_" target="_blank">Instagram</a> |
+      <a href="https://wa.me/5545991292930" target="_blank">WhatsApp</a> |
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vandadecor70@gmail.com" target="_blank">Email</a>
+    </p>
+    <p>&copy; 2025 Vandadecor</p>
+  </footer>
+
+</body>
+</html>

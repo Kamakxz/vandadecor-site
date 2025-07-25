@@ -1,0 +1,52 @@
+{
+  "macqueen": {
+    "nome": "MacQueen",
+    "categoria": "Desenhos",
+    "imagens": ["assets/img/produtos/carros.jpg"]
+  },
+  "corinthians": {
+    "nome": "Corinthians",
+    "categoria": "Futebol/Times",
+    "imagens": ["assets/img/produtos/corinthians.jpg"]
+  },
+  "anos80": {
+    "nome": "Anos 80 Neon",
+    "categoria": "Adulto, Adulto Masculinas, Adulto Femininas",
+    "imagens": ["assets/img/produtos/anos80-neon.jpg"]
+  },
+  "fazendinha": {
+    "nome": "Fazendinha",
+    "categoria": "Infantil, Infantil Femininas, Infantil Masculinas",
+    "imagens": ["assets/img/produtos/fazendinha.jpg"]
+  },
+  "stitch": {
+    "nome": "Stitch",
+    "categoria": "Desenhos, Infantil",
+    "imagens": ["assets/img/produtos/stitch.jpg"]
+  },
+  "ohbaby": {
+    "nome": "Oh Baby",
+    "categoria": "Chá revelação",
+    "imagens": ["assets/img/produtos/ohbaby.jpg"]
+  },
+  "princesas": {
+    "nome": "Princesas",
+    "categoria": "Desenhos, Infantil",
+    "imagens": ["assets/img/produtos/princesas.jpg"]
+  },
+  "rosa_laranja": {
+    "nome": "Rosa e Laranja",
+    "categoria": "Adulto, Femininas",
+    "imagens": ["assets/img/produtos/rosa-laranja.jpg"]
+  },
+  "futebol": {
+    "nome": "Futebol",
+    "categoria": "Adulto Masculinas, Futebol/Times",
+    "imagens": ["assets/img/produtos/futebol.jpg"]
+  },
+  "laco_rosa": {
+    "nome": "Laço Rosa",
+    "categoria": "Infantil Femininas",
+    "imagens": ["assets/img/produtos/laco-rosa.jpg"]
+  }
+}
